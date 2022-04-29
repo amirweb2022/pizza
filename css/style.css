@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "pizaa";
+}
+@font-face {
+  font-family: "pizaa";
+  src: url(../font/danstevis.otf);
+}
+.container-menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/dark_tint.png),
+    url(../img/bokeh_car_lights_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+.close {
+  position: relative;
+  bottom: 300px;
+  font-size: 30px;
+  color: #fff;
+  left: 600px;
+  cursor: pointer;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+  margin-bottom: 120px;
+  margin-top: 120px;
+  border-radius: 8px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: right;
+}
+.btn-menu {
+  background-color: rgb(0, 175, 56);
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+tr:nth-child(even) {
+  background-color: rgb(248, 44, 44);
+}
+header {
+  background-image: url(../img/photo_2021-10-21_15-44-24.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  /* opacity: 0.9; */
+}
+.bg-dark {
+  background-color: rgb(57, 57, 57);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.border {
+  background-color: #01013d;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid rgb(69, 69, 69);
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 20%;
+  margin: 20px 40px;
+}
+.ul-list {
+  display: flex;
+  padding: 20px 60px;
+}
+.list {
+  list-style-type: none;
+  padding-right: 30px;
+}
+.a-list {
+  font-size: 20px;
+  font-family: 700;
+}
+.main-header h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+}
+.main-header h3 {
+  color: rgb(241, 237, 237);
+  font-size: 25px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+.start {
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.manfi {
+  padding: 4px 10px;
+  border: none;
+  background-color: rgb(13, 224, 122);
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.plus {
+  padding: 4px 10px;
+  border: none;
+  background-color: rgb(13, 224, 122);
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.number {
+  font-size: 30px;
+}
+main {
+  background-color: rgb(34, 34, 34);
+}
+.phish {
+  height: 800px;
+  border-bottom: 2px solid lightslategray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  /* margin-top: 20px; */
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.title h1 {
+  color: rgb(250, 200, 126);
+}
+.title p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.content-phish {
+  background-color: #020239;
+  width: 28%;
+  height: auto;
+  text-align: center;
+  border-radius: 8px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 110px;
+}
+.title1 h2 {
+  color: rgb(250, 200, 126);
+}
+.image img {
+  border-radius: 8px;
+}
+.text {
+  margin-top: 20px;
+}
+.content-slide {
+ display: none;
+ animation: slide 0.2s;
+}
+.content-slide.active {
+  display: block;
+}
+@keyframes slide {
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.program {
+  border-bottom: 2px solid lightslategray;
+  height: 600px;
+}
+.title-pro {
+  display: flex;
+  justify-content: center;
+}
+.tex-title {
+  margin-top: 50px;
+  text-align: center;
+}
+.tex-title h1 {
+  color: rgb(250, 200, 126);
+}
+.tex-title p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.pro {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.content1 {
+  background-color: #01011d;
+  height: 350px;
+  margin: 30px auto;
+  width: 28%;
+}
+.content-img img {
+    margin-top: 70px;
+}
+.title-content {
+  color: rgb(250, 200, 126); 
+  margin-top: 20px;
+}
+.text-content {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+}
+.cover {
+  border-bottom: 2px solid lightslategray;
+  height: 450px;
+}
+.cover-text-title {
+  display: flex;
+  justify-content: center;
+}
+.cover-title {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+.cover-title p{
+  margin-top: 10px;
+}
+.cover-pro-img {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.cover-pro {
+  display: flex;
+  width: 20%;
+  margin: 80px auto;
+}
+.cover-text {
+  margin-left: 10px;
+  text-align: center;
+}
+.call-me {
+  height: 200px;
+  color: #fff;
+}
+.title-btn-me {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.title-btn {
+  width: 50%;
+}
+.btn-call {
+  margin-top: 30px;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.contaner-message {
+  background-color: #01011d;
+  height: 550px;
+}
+.title-p-message {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title-message {
+  margin-top: 70px;
+  color: #fff;
+}
+.title-message h2 {
+  margin-top: 20px;
+}
+.form-message {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+form {
+  direction: rtl;
+}
+.name {
+  width: 250px;
+  margin-left: 10px;
+  border-radius: 4px;
+  line-height: 30px;
+  outline-color: aqua;
+  padding-right: 8px;
+}
+.family {
+  width: 250px;
+  border-radius: 4px;
+  line-height: 30px;
+  outline-color: aqua;
+  padding-right: 8px;
+}
+textarea {
+  width: 450px;
+  margin: 10px 30px;
+  resize: none;
+  outline-color: aqua;
+  height: 200px;
+  padding: 8px 10px;
+}
+.btn-call1 {
+  margin-top: 10px;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 190px;
+}
+footer {
+  background-color: #030351;
+}
+.footer-content {
+  height: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 40px;
+}
